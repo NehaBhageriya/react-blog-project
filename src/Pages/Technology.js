@@ -4,7 +4,7 @@ import CardOne from '../Component/CardOne'
 import CardTwo from '../Component/CardTwo';
 
 export const Technology = () => {
-  const [detail, ] = useContext(store);
+  const [detail ] = useContext(store);
   return (
     <div>
             <h1 style={{ margin: "20px 10%", display: "inline-block" }}>Technology</h1>

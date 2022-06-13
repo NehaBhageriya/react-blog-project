@@ -150,13 +150,12 @@ a{
 
 .home__first{
     text-align: center;
-
     box-sizing: border-box;
     display: inline-block;
     color: white;
     width: 70% ;
-    height: 600px;
-    background: url("https://www.holidify.com/images/cmsuploads/compressed/2999_20190305160539.jpg");
+    height: 500px;
+    background: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg");
     border-radius: 15px;
     cursor: pointer;
 }
@@ -173,7 +172,7 @@ a{
 }
 .home__sec img{
     width: 100%;
-    height: 390px;
+    height: 250px;
     border-radius: 15px;
 }
 .home__thir h4{
@@ -186,12 +185,12 @@ a{
 }
 .home__thir{
     display: inline-block;
-    width: 350px;
-    height: 250px;
+    width: 24%;
+    height: 346px;
     position: absolute;
-    top: 550px;
+    top: 450px;
     border-radius: 15px;
-    left: 1020px;
+    left: 900px;
 }
 .home__thir img{
     width: 100%;
@@ -199,7 +198,7 @@ a{
     border-radius: 15px;
 }
 .home__left{
-    margin: 20px 50px 20px 0px;
+    margin: 20px 46px 0px 0px;
     display: inline-block;
     text-align: center;
     width: 29%;
@@ -208,13 +207,18 @@ a{
 .home__left img{
     width: 100%;
 }
-.home__bigcard__data{
+.home__bigcard__data h3{
     margin-top: 20px;
+    color: black;
+}
+.home__bigcard__data p{
+    margin-top: 20px;
+    color:grey;
 }
 .Top{
-    display: inline-block;
+     display: inline-block; 
     margin-left: 600px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 @media (max-width: 480px){

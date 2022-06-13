@@ -1,5 +1,4 @@
-import { BrowserRouter, Route, Routes, useParams } from "react-router-dom";
-import Header from "./Component/Header";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import NavBar from "./Component/NavBar";
 import Home from "./Pages/Home"
 import Hollywood from "./Pages/Hollywood"
@@ -15,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <Detail>
-      <Header />
       <BrowserRouter>
       <NavBar />
       <Routes>
