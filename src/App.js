@@ -8,25 +8,25 @@ import Fitness from "./Pages/Fitness"
 import Food from "./Pages/Food"
 import SinglePage from "./Pages/SinglePage";
 import './Style.css'
-import Detail from "./Pages/Detail";
+// import Detail from "./Pages/Detail";
 
 function App() {
   return (
     <div className="App">
-      <Detail>
+      {/* <Detail> */}
       <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element = {<Home />} />
+        <Route path="/" element = {<Home />} /> 
         <Route path="/bollywood" element = {<Bollywood />} />
-        <Route path="/hollywood" element = {<Hollywood />} />
-        <Route path="/technology" element = {<Technology />} />
-        <Route path="/fitness" element = {<Fitness />} />
-        <Route path="/food" element = {<Food />} />
-        <Route path=":category/:articleid" element = {<SinglePage/>}/>
+         <Route path="/hollywood" element = {<Hollywood />} /> 
+         <Route path="/technology" element = {<Technology />} /> 
+        <Route path="/fitness" element = {<Fitness />} /> 
+         <Route path="/food" element = {<Food />} /> 
+         <Route path=":category/:articleid" element = {<SinglePage/>}/> 
       </Routes>
       </BrowserRouter>
-      </Detail>
+      {/* </Detail> */}
 
 
     </div>
